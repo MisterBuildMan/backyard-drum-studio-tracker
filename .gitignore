@@ -29,3 +29,7 @@ coverage/
 # Temporary files
 tmp/
 temp/
+
+# Local test repos
+test-source-repo/
+source-repo/

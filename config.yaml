@@ -6,7 +6,7 @@ source:
 
 aws:
   region: "us-east-1"
-  modelId: "anthropic.claude-3-sonnet-20240229-v1:0"
+  modelId: "us.anthropic.claude-opus-4-5-20251101-v1:0"
 
 site:
   title: "Backyard Drum Studio"
