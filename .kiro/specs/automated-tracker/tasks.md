@@ -13,20 +13,20 @@ This plan implements an automated website generator that monitors a GitHub repos
   - [x] 0.4 Make initial commit with spec files
   - [x] 0.5 Create GitHub repo and push (manual)
 
-- [ ] 1. Set up project structure and configuration
-  - [ ] 1.1 Initialize Node.js project with package.json
+- [x] 1. Set up project structure and configuration
+  - [x] 1.1 Initialize Node.js project with package.json
     - Set up ES modules, add dependencies (aws-sdk, js-yaml, marked, fast-check)
     - _Requirements: 8.1_
-  - [ ] 1.2 Create config.yaml with default configuration
+  - [x] 1.2 Create config.yaml with default configuration
     - Include source repo, AWS settings, site metadata, output settings
     - _Requirements: 8.1, 8.2, 8.3, 8.4_
-  - [ ] 1.3 Implement configuration loader (src/config.js)
+  - [x] 1.3 Implement configuration loader (src/config.js)
     - Parse YAML, validate required fields, return TrackerConfig object
     - _Requirements: 8.1, 8.5_
-  - [ ] 1.4 Write property test for config parsing round-trip
+  - [x] 1.4 Write property test for config parsing round-trip
     - **Property 14: Valid config parsing round-trip**
     - **Validates: Requirements 8.1**
-  - [ ] 1.5 Write property test for invalid config error messages
+  - [x] 1.5 Write property test for invalid config error messages
     - **Property 15: Invalid config produces descriptive error**
     - **Validates: Requirements 8.5**
 
