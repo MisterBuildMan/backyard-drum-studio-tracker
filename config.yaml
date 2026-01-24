@@ -1,0 +1,23 @@
+# Backyard Drum Studio Tracker Configuration
+
+source:
+  repository: "MisterBuildMan/backyard-drum-studio"
+  branch: "main"
+
+aws:
+  region: "us-east-1"
+  modelId: "anthropic.claude-3-sonnet-20240229-v1:0"
+
+site:
+  title: "Backyard Drum Studio"
+  description: "DIY sound-isolated music studio build, documented from start to finish"
+  
+pages:
+  home: true
+  phases: true
+  progress: true
+  glossary: true
+
+output:
+  directory: "dist"
+  branch: "gh-pages"

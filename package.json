@@ -1,0 +1,32 @@
+{
+  "name": "backyard-drum-studio-tracker",
+  "version": "1.0.0",
+  "description": "AI-powered website generator that monitors a DIY construction project repo",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:property": "vitest run --testNamePattern='Property'",
+    "extract": "node src/extract-cli.js",
+    "generate": "node src/generate-cli.js"
+  },
+  "keywords": [
+    "github-pages",
+    "static-site-generator",
+    "aws-bedrock",
+    "ai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.0.0",
+    "js-yaml": "^4.1.0",
+    "marked": "^11.0.0"
+  },
+  "devDependencies": {
+    "fast-check": "^3.15.0",
+    "vitest": "^1.2.0"
+  }
+}
