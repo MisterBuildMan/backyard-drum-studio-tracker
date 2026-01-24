@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Backyard Drum Studio - Project Tracker</title>
+  <title>Backyard Drum Studio</title>
   <meta name="description" content="DIY sound-isolated music studio build, documented from start to finish">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Patrick+Hand&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -18,28 +19,33 @@
     </ul>
   </nav>
 
-  <section class="hero">
-    <h1>Backyard Drum Studio</h1>
-    <p>A DIY backyard music studio build for recording and practicing acoustic drums, documented from start to finish.</p>
-  </section>
-
   <main class="container">
-    <section class="section">
-      <h2>Overall Progress</h2>
-      <div class="progress-bar progress-bar-large">
-        <div class="progress-fill" style="width: 11%"></div>
-        <span class="progress-label">11% Complete</span>
+    <section class="section hero">
+      <h1>🥁 Backyard Drum Studio</h1>
+      <p class="hero-subtitle">A DIY sound-isolated music studio build, documented from start to finish.</p>
+      
+      <div class="hero-details">
+        <div class="sketch-border hero-box">
+          <h3>🎯 Project Goal</h3>
+          <p>Build a backyard music studio for recording and practicing acoustic drums with professional-grade sound isolation (targeting STC 55-60).</p>
+        </div>
       </div>
     </section>
 
     <section class="section">
+      <h2>📊 Overall Progress</h2>
+      <div class="progress-bar large">
+        <div class="progress-fill" style="width: 15%"></div>
+        <span class="progress-label">15%</span>
+      </div>
+      
       <div class="stats-grid">
         <div class="stat-card">
-          <div class="stat-value">0</div>
+          <div class="stat-value">1</div>
           <div class="stat-label">Phases Complete</div>
         </div>
         <div class="stat-card">
-          <div class="stat-value">2</div>
+          <div class="stat-value">1</div>
           <div class="stat-label">In Progress</div>
         </div>
         <div class="stat-card">
@@ -47,103 +53,139 @@
           <div class="stat-label">Remaining</div>
         </div>
         <div class="stat-card">
-          <div class="stat-value">5</div>
-          <div class="stat-label">Tasks Done</div>
+          <div class="stat-value">10</div>
+          <div class="stat-label">Total Phases</div>
         </div>
       </div>
     </section>
 
     <section class="section">
-      <div class="current-phase">
-        <div class="current-phase-label">📍 Current Phase</div>
-        <h3>Phase 1: Planning & Permits</h3>
+      <h2>🚧 Current Status</h2>
+      <div class="phase-card phase-card--in-progress">
+        <div class="phase-header">
+          <span class="phase-number">Phase 1</span>
+          <span class="phase-status">In Progress</span>
+        </div>
+        <h3 class="phase-title">Planning & Permits</h3>
         <p class="phase-description">Site assessment, local code research, permit applications, and budget planning.</p>
         <div class="progress-bar">
-          <div class="progress-fill" style="width: 24%"></div>
-          <span class="progress-label">24%</span>
+          <div class="progress-fill" style="width: 45%"></div>
+          <span class="progress-label">45%</span>
         </div>
-        <div class="task-list">
-          <div class="task-item">
-            <span class="task-status task-status--complete">✓</span>
-            <span>Look up property zoning district</span>
-          </div>
-          <div class="task-item">
-            <span class="task-status task-status--in-progress">●</span>
-            <span>Document setback requirements</span>
-          </div>
-          <div class="task-item">
-            <span class="task-status task-status--complete">✓</span>
-            <span>Document height restrictions</span>
-          </div>
-          <div class="task-item">
-            <span class="task-status task-status--complete">✓</span>
-            <span>Research lot coverage limits</span>
-          </div>
-          <div class="task-item">
-            <span class="task-status task-status--complete">✓</span>
-            <span>Research electrical/HVAC requirements</span>
-          </div>
-        </div>
+      </div>
+      
+      <div class="current-focus sketch-border">
+        <h3>📋 Current Focus</h3>
+        <ul>
+          <li>✓ Zoning district identified (SR - Suburban Residential)</li>
+          <li>✓ Setback requirements documented</li>
+          <li>✓ Height restrictions documented</li>
+          <li>✓ Lot coverage limits researched (920 sq ft available)</li>
+          <li>✓ Electrical/HVAC requirements documented</li>
+          <li>→ Next: Select building site and complete permit applications</li>
+        </ul>
       </div>
     </section>
 
     <section class="section">
-      <div class="activity-preview">
-        <h3>Recent Activity</h3>
-        <div class="changelog-entry">
-          <div class="changelog-date">January 24, 2026</div>
-          <ul class="changelog-items">
-            <li class="changelog-item changelog-item--completed">
-              <span class="changelog-type">Completed</span>
-              Research requirements for structures with electrical/HVAC (Task 1.5)
-            </li>
-          </ul>
-        </div>
-        <div class="changelog-entry">
-          <div class="changelog-date">January 21, 2026</div>
-          <ul class="changelog-items">
-            <li class="changelog-item changelog-item--completed">
-              <span class="changelog-type">Completed</span>
-              Research lot coverage limits (Task 1.4) - Found 20% back yard coverage limit
-            </li>
-          </ul>
-        </div>
-        <div class="changelog-entry">
-          <div class="changelog-date">January 20, 2026</div>
-          <ul class="changelog-items">
-            <li class="changelog-item changelog-item--completed">
-              <span class="changelog-type">Completed</span>
-              Look up property zoning district (Task 1.1) - Identified SR zoning
-            </li>
-            <li class="changelog-item changelog-item--completed">
-              <span class="changelog-type">Completed</span>
-              Document setback requirements (Task 1.2)
-            </li>
-            <li class="changelog-item changelog-item--completed">
-              <span class="changelog-type">Completed</span>
-              Document height restrictions (Task 1.3)
-            </li>
-          </ul>
-        </div>
-        <a href="progress.html" class="view-all-link">View all updates →</a>
+      <h2>📝 Recent Updates</h2>
+      <div class="changelog-entry">
+        <div class="changelog-date">📅 January 24, 2026</div>
+        <ul class="changelog-items">
+          <li class="changelog-item changelog-item--completed">
+            <span class="changelog-marker">✓</span>
+            Research requirements for structures with electrical/HVAC (Task 1.5)
+          </li>
+        </ul>
       </div>
+      <div class="changelog-entry">
+        <div class="changelog-date">📅 January 21, 2026</div>
+        <ul class="changelog-items">
+          <li class="changelog-item changelog-item--completed">
+            <span class="changelog-marker">✓</span>
+            Research lot coverage limits (Task 1.4) - Found 20% back yard coverage limit
+          </li>
+        </ul>
+      </div>
+      <div class="changelog-entry">
+        <div class="changelog-date">📅 January 20, 2026</div>
+        <ul class="changelog-items">
+          <li class="changelog-item changelog-item--completed">
+            <span class="changelog-marker">✓</span>
+            Look up property zoning district (Task 1.1) - Identified SR zoning
+          </li>
+          <li class="changelog-item changelog-item--completed">
+            <span class="changelog-marker">✓</span>
+            Document setback requirements (Task 1.2)
+          </li>
+          <li class="changelog-item changelog-item--completed">
+            <span class="changelog-marker">✓</span>
+            Document height restrictions (Task 1.3)
+          </li>
+        </ul>
+      </div>
+      <p class="view-all"><a href="progress.html">View full progress log →</a></p>
     </section>
 
     <section class="section">
-      <h2>Project Overview</h2>
-      <p>This repository documents the complete process of building a sound-isolated music studio for acoustic drums in a residential backyard.</p>
-      <h3 style="margin-top: 1.5rem;">Key Goals</h3>
-      <ul style="margin-left: 1.5rem; margin-top: 0.5rem;">
-        <li><strong>Primary Use:</strong> Recording and practicing acoustic drums</li>
-        <li><strong>Sound Isolation:</strong> Targeting STC 55-60</li>
-        <li><strong>Location:</strong> Cedar Park, TX backyard</li>
-      </ul>
+      <h2>🏗️ Project Phases Overview</h2>
+      <div class="phase-cards">
+        <div class="phase-card phase-card--complete">
+          <div class="phase-header">
+            <span class="phase-number">Phase 0</span>
+            <span class="phase-status">Complete</span>
+          </div>
+          <h3 class="phase-title">Project Setup</h3>
+          <p class="phase-description">Establish documentation methodology and conventions.</p>
+        </div>
+        <div class="phase-card phase-card--in-progress">
+          <div class="phase-header">
+            <span class="phase-number">Phase 1</span>
+            <span class="phase-status">In Progress</span>
+          </div>
+          <h3 class="phase-title">Planning & Permits</h3>
+          <p class="phase-description">Site assessment, code research, permits.</p>
+        </div>
+        <div class="phase-card phase-card--not-started">
+          <div class="phase-header">
+            <span class="phase-number">Phase 2</span>
+            <span class="phase-status">Not Started</span>
+          </div>
+          <h3 class="phase-title">Design</h3>
+          <p class="phase-description">3D modeling, floor plans, sound isolation strategy.</p>
+        </div>
+      </div>
+      <p class="view-all"><a href="phases.html">View all phases →</a></p>
+    </section>
+
+    <section class="section">
+      <h2>📚 Quick Reference</h2>
+      <div class="quick-ref-grid">
+        <div class="sketch-border quick-ref-card">
+          <h3>🎯 Key Specs</h3>
+          <ul>
+            <li><strong>Target STC:</strong> 55-60</li>
+            <li><strong>Max Footprint:</strong> 920 sq ft</li>
+            <li><strong>Min Interior:</strong> 120 sq ft</li>
+            <li><strong>Zoning:</strong> SR (Suburban Residential)</li>
+          </ul>
+        </div>
+        <div class="sketch-border quick-ref-card">
+          <h3>📏 Setbacks Required</h3>
+          <ul>
+            <li><strong>Interior Side:</strong> 12 ft</li>
+            <li><strong>Street Side:</strong> 20 ft</li>
+            <li><strong>Rear:</strong> 25 ft</li>
+            <li><strong>Front:</strong> 30 ft</li>
+          </ul>
+        </div>
+      </div>
     </section>
   </main>
 
   <footer class="footer">
-    <p>Backyard Drum Studio Project Tracker</p>
-    <p class="footer-updated">Last updated: January 24, 2026</p>
+    <p>🥁 Backyard Drum Studio Project Tracker</p>
+    <p class="footer-updated">Last updated: January 25, 2025</p>
   </footer>
 </body>
 </html>
