@@ -21,6 +21,23 @@ Automated website generator that monitors the [backyard-drum-studio](https://git
 
 See `.kiro/specs/automated-tracker/` for full requirements and implementation details.
 
+## Manual Site Generation (No AWS Required)
+
+If Bedrock credentials are unavailable, you can edit the generated site directly:
+
+1. The generated site lives in `dist/` (HTML + CSS files)
+2. Edit files in `dist/` directly — follow `design-system.md` for styling conventions
+3. Preview locally by opening `dist/index.html` in a browser
+4. Deploy to GitHub Pages:
+   ```bash
+   cd dist
+   git add -A
+   git commit -m "Generated site: $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
+   git push origin gh-pages --force
+   ```
+
+The `dist/` folder has its own git repo on the `gh-pages` branch, separate from the main project.
+
 ## Configuration
 
 Edit `config.yaml` to customize:
