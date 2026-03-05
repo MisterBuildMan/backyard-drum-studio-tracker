@@ -584,6 +584,8 @@ When generating the site, return a JSON object with this exact structure (no mar
 Each HTML file should:
 - Be complete, valid HTML5
 - Include the Google Fonts link in the head (Inter + Playfair Display)
+- Include the GoatCounter analytics snippet before the closing `</body>` tag:
+  `<script data-goatcounter="https://misterbuildman.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>`
 - Link to styles.css
 - Include the navigation and footer
 - Use the dark, minimal aesthetic throughout
